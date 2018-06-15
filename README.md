@@ -5,7 +5,7 @@
 Websites will often employ a 'column-based' layout scheme to visually
 deliver content. While writing HTML and CSS for this kind of layout can be done
 in many different ways, following a few simple patterns can help us achieve
-clean code and a clean column-based representation of our websites.
+clean code and a clean column-based look.
 
 
 ## Objectives
