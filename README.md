@@ -34,7 +34,7 @@ look like on screen before going back and editing the actual CSS file.
 - Examine what we have rendering already by opening `index.html` in the browser
 - Create a `.column` class in `css/style.css`
 - Create three classes that our tiled images will use: `.small`, `.med`, `.large`
-- Add in three `<div>`s with class `.column` to each of the three containers in our `index.html`
+- Add in three `<div>`s with class `.column` inside each of the three containers in our `index.html`
 - Place the `<img>` elements within their respective column divs, and give them the appropriate size class (`.small`/`.med`/`.large`) 
 
 
