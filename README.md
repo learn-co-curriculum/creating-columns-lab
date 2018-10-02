@@ -35,7 +35,7 @@ look like on screen before going back and editing the actual CSS file.
 - Create a `.column` class in `css/style.css`
 - Create three classes that our tiled images will use: `.small`, `.med`, `.large`
 - Add in three `<div>`s with class `.column` inside each of the three containers in our `index.html`
-- Place the `<img>` elements within their respective column divs, and give them the appropriate size class (`.small`/`.med`/`.large`) 
+- Place each `<img>` element within their respective column divs, and give them the appropriate size class (`.small`/`.med`/`.large`) 
 
 
 <div align="center">
@@ -43,7 +43,7 @@ look like on screen before going back and editing the actual CSS file.
   <img src="https://curriculum-content.s3.amazonaws.com/fewds-css/creating-columns-lab-incomplete.png" alt="drawing" width="200px"/>
 </div>
 
-In the above example, our images are simply lining up one after another, left to
+In the above example, our images are lining up one after another, left to
 right, top to bottom. Instead, we want to organize them into columns, within
 which they will align vertically.
 
@@ -55,23 +55,18 @@ which they will align vertically.
 
 #### Help Getting Started
 
-Our **`.column`** class should have a specific value for the `display` property.
-You may notice that, by default, the images will display all in a vertical line,
-even with three column `<divs>` in each container. Instead, we need to make sure
-the column elements know to display _horizontally_, not _vertically_.
+- The **`.column`** class should have a _specific value_ for the `display` property that will 
+- Create three `<div>`s, with a class of `.column`, insite of each `.container` element in `index.html`.
+make sure the column elements know to display the images _horizontally_, not _vertically_.
+By default the images display in a vertical line, even with three column `<divs>` in each container.
 
-Additionally, **`.column`** should have a set width. If we had two columns
-instead of three, we might set `width: 50%`, designating that each column should
-take up _half_ of its parent's width. 
+- Define a width to the **`.column`** class. If we had two columns instead of three, we might set
+`width: 50%`, designating that each column should take up _half_ of its parent's width. 
 
-When creating our tile size classes (**`.small`**, **`.med`**, **`.large`**),
-all we need to do is provide properties that will change the size of the
-element. As seen in the completed image example, images can either be their
-normal size, 2x, or 3x. We can use the `width` and `height` properties, with `%`
+- When creating our tile size classes (**`.small`**, **`.med`**, **`.large`**), we need to provide
+properties that will change the size of the element. As shown in the screenshot of the final product
+images can be their original size, 2x, or 3x. Use the `width` and `height` properties, with `%`
 based values, to control that. 
-
-Don't forget to create three `<div>`s, with a class of `.column`, for each
-container element in `index.html`!
 
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/creating-columns-lab' title='Creating Columns Lab'>Creating Columns Lab</a> on Learn.co and start learning to code for free.</p>
