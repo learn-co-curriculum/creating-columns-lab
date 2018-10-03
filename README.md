@@ -61,8 +61,9 @@ even with three column `<divs>` in each container. Instead, we need to make sure
 the column elements know to display _horizontally_, not _vertically_.
 
 Additionally, **`.column`** should have a set width. If we had two columns
-instead of three, we might set `width: 50%`, designating that each column should
-take up _half_ of its parent's width. 
+instead of three, we might set `width: 48%`, designating that each column should
+take up roughly _half_ of its parent's width, being mindful of margin or padding
+in between.
 
 When creating our tile size classes (**`.small`**, **`.med`**, **`.large`**),
 all we need to do is provide properties that will change the size of the
