@@ -60,8 +60,10 @@ which they will align vertically.
 make sure the column elements know to display the images _horizontally_, not _vertically_.
 By default the images display in a vertical line, even with three column `<divs>` in each container.
 
-- Define a width to the **`.column`** class. If we had two columns instead of three, we might set
-`width: 50%`, designating that each column should take up _half_ of its parent's width. 
+Additionally, **`.column`** should have a set width. If we had two columns
+instead of three, we might set `width: 48%`, designating that each column should
+take up roughly _half_ of its parent's width, being mindful of margin or padding
+in between.
 
 - When creating our tile size classes (**`.small`**, **`.med`**, **`.large`**), we need to provide
 properties that will change the size of the element. As shown in the screenshot of the final product
