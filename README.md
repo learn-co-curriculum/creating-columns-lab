@@ -55,10 +55,9 @@ which they will align vertically.
 
 #### Help Getting Started
 
-- The **`.column`** class should have a _specific value_ for the `display` property that will 
-- Create three `<div>`s, with a class of `.column`, insite of each `.container` element in `index.html`.
-make sure the column elements know to display the images _horizontally_, not _vertically_.
-By default the images display in a vertical line, even with three column `<divs>` in each container.
+- The **`.column`** class should have a _specific value_ for the `display` property.
+- Create three `<div>`s, with a class of `.column`, inside of each `.container` element in `index.html`.
+- Make sure the column elements know to display the images _horizontally_, not _vertically_. By default the images display in a vertical line, even with three column `<divs>` in each container.
 
 Additionally, **`.column`** should have a set width. If we had two columns
 instead of three, we might set `width: 48%`, designating that each column should
