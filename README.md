@@ -69,5 +69,3 @@ properties that will change the size of the element. As shown in the screenshot 
 images can be their original size, 2x, or 3x. Use the `width` and `height` properties, with `%`
 based values, to control that. 
 
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/creating-columns-lab' title='Creating Columns Lab'>Creating Columns Lab</a> on Learn.co and start learning to code for free.</p>
